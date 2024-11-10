@@ -32,7 +32,7 @@ crearDiv28.appendChild(crearP28);
 const primerTitulo = accion[0].title;//Pongo el Titulo de la Pelicula
 crearP28.textContent = primerTitulo;
 
-const crearDiv282 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-28
+const crearDiv282 = document.createElement("div")//Acá me Creo Cada Div Hijo del Div Genero-28
 llamarGen28.appendChild(crearDiv282);
 const crearDiv283 = document.createElement("div")
 llamarGen28.appendChild(crearDiv283);
@@ -72,7 +72,7 @@ const crearDiv2820 = document.createElement("div")
 llamarGen28.appendChild(crearDiv2820);
 
 
-const crearImg282= document.createElement("img");// Acá me Creo Img Hijo de Div
+const crearImg282= document.createElement("img");// Acá me Creo Cada Img Hijo de Div
 crearDiv282.appendChild(crearImg282);
 const crearImg283= document.createElement("img");
 crearDiv283.appendChild(crearImg283);
@@ -112,7 +112,7 @@ const crearImg2820= document.createElement("img");
 crearDiv2820.appendChild(crearImg2820);
 
 
-const primerImgPelicula2 = accion[1].poster_path;//Pongo Imagen de la Pelicula
+const primerImgPelicula2 = accion[1].poster_path;//Pongo Cada Imagen de la Pelicula
 crearImg282.setAttribute("src", "../img/retribution.jpg");
 const primerImgPelicula3 = accion[2].poster_path;
 crearImg283.setAttribute("src", "../img/fastx.jpg");
@@ -152,7 +152,7 @@ const primerImgPelicula20 = accion[19].poster_path;
 crearImg2820.setAttribute("src", "../img/the engineer.jpg");
 
 
-const crearP282 = document.createElement("p");// Acá me Creo P Hermano de Img
+const crearP282 = document.createElement("p");// Acá me Creo Cada P Hermano de Img
 crearDiv282.appendChild(crearP282);
 const crearP283 = document.createElement("p");
 crearDiv283.appendChild(crearP283);
@@ -191,7 +191,7 @@ crearDiv2819.appendChild(crearP2819);
 const crearP2820 = document.createElement("p");
 crearDiv2820.appendChild(crearP2820);
 
-const primerTitulo2 = accion[1].title;//Pongo el Titulo de la Pelicula
+const primerTitulo2 = accion[1].title;//Pongo el Titulo de Cada Pelicula
 crearP282.textContent = primerTitulo2;
 const primerTitulo3 = accion[2].title;
 crearP283.textContent = primerTitulo3;
@@ -229,3 +229,79 @@ const primerTitulo19 = accion[18].title;
 crearP2819.textContent = primerTitulo19;
 const primerTitulo20 = accion[19].title;
 crearP2820.textContent = primerTitulo20;
+
+//Sección Thriller
+const llamarGen12 = document.getElementById("genero-12");//Llamo al id "Genero-12"
+console.log(llamarGen12);
+
+const crearDiv12 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-12
+llamarGen12.appendChild(crearDiv12);
+
+const crearImg12= document.createElement("img");// Acá me Creo Img Hijo de Div
+crearDiv12.appendChild(crearImg12);
+
+const crearP12 = document.createElement("p");// Acá me Creo P Hermano de Img
+crearDiv12.appendChild(crearP12);
+
+const segundaImgPelicula = accion[4].poster_path;//Pongo Imagen de la Pelicula
+crearImg12.setAttribute("src", "https://image.tmdb.org/t/p/w500/qXChf7MFL36BgoLkiB3BzXiwW82.jpg");
+
+const tercerTitulo = accion[4].title;//Pongo el Titulo de la Pelicula
+crearP12.textContent = tercerTitulo;
+
+
+
+const crearDiv122 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-12
+llamarGen12.appendChild(crearDiv122);
+const crearDiv123 = document.createElement("div")
+llamarGen12.appendChild(crearDiv123);
+const crearDiv124 = document.createElement("div")
+llamarGen12.appendChild(crearDiv124);
+const crearDiv125 = document.createElement("div")
+llamarGen12.appendChild(crearDiv125);
+const crearDiv126 = document.createElement("div")
+llamarGen12.appendChild(crearDiv126);
+
+const crearImg122= document.createElement("img");// Acá me Creo Img Hijo de Div
+crearDiv122.appendChild(crearImg122);
+const crearImg123= document.createElement("img");
+crearDiv123.appendChild(crearImg123);
+const crearImg124= document.createElement("img");
+crearDiv124.appendChild(crearImg124);
+const crearImg125= document.createElement("img");
+crearDiv125.appendChild(crearImg125);
+const crearImg126= document.createElement("img");
+crearDiv126.appendChild(crearImg126);
+
+const crearP122 = document.createElement("p");// Acá me Creo P Hermano de Img
+crearDiv122.appendChild(crearP122);
+const crearP123 = document.createElement("p")
+crearDiv123.appendChild(crearP123);
+const crearP124 = document.createElement("p")
+crearDiv124.appendChild(crearP124);
+const crearP125 = document.createElement("p")
+crearDiv125.appendChild(crearP125);
+const crearP126 = document.createElement("p")
+crearDiv126.appendChild(crearP126);
+
+const terceraImgPelicula2 = accion[5].poster_path;//Pongo Imagen de la Pelicula
+crearImg122.setAttribute("src", "https://image.tmdb.org/t/p/w500/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg");
+const terceraImgPelicula3 = accion[12].poster_path;
+crearImg123.setAttribute("src", "https://image.tmdb.org/t/p/w500/3H9NA1KWEQN0ItL3Wl3SFZYP6yV.jpg");
+const terceraImgPelicula4 = accion[15].poster_path;
+crearImg124.setAttribute("src", "../img/transformers.jpg");
+const terceraImgPelicula5 = accion[17].poster_path;
+crearImg125.setAttribute("src", "../img/spiderman across.jpg");
+const terceraImgPelicula6 = accion[18].poster_path;
+crearImg126.setAttribute("src", "../img/babylon ad.jpg");
+
+const tercerTitulo2 = accion[5].title;//Pongo el Titulo de la Pelicula
+crearP122.textContent = tercerTitulo2;
+const tercerTitulo3 = accion[12].title;
+crearP123.textContent = tercerTitulo3;
+const tercerTitulo4 = accion[15].title;
+crearP124.textContent = tercerTitulo4;
+const tercerTitulo5 = accion[17].title;
+crearP125.textContent = tercerTitulo5;
+const tercerTitulo6 = accion[18].title;
+crearP126.textContent = tercerTitulo6;
