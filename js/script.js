@@ -1,5 +1,7 @@
 import peliculas from './peliculas.js'
 
+console.log(peliculas);
+
 //Filtrar Peliculas Acción id=28
 const accion = peliculas.filter((element) => element.genre_ids.includes(28));
 console.log("Peliculas de Acción", accion);
@@ -13,7 +15,7 @@ const aventura = peliculas.filter((element) => element.genre_ids.includes(12));
 console.log("Peliculas de Aventura", aventura);  
 
 
-
+//Sección Acción
 const llamarGen28 = document.getElementById("genero-28");//Llamo al id "Genero-28"
 console.log(llamarGen28);
 
@@ -231,6 +233,125 @@ const primerTitulo20 = accion[19].title;
 crearP2820.textContent = primerTitulo20;
 
 //Sección Thriller
+const llamarGen53 = document.getElementById("genero-53");//Llamo al id "Genero-53"
+console.log(llamarGen53);
+
+const crearDiv53 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-53
+llamarGen53.appendChild(crearDiv53);
+
+const crearImg53= document.createElement("img");// Acá me Creo Img Hijo de Div
+crearDiv53.appendChild(crearImg53);
+
+const crearP53 = document.createElement("p");// Acá me Creo P Hermano de Img
+crearDiv53.appendChild(crearP53);
+
+const segundaImgPelicula = accion[4].poster_path;//Pongo Imagen de la Pelicula
+crearImg53.setAttribute("src", "https://image.tmdb.org/t/p/w500/qXChf7MFL36BgoLkiB3BzXiwW82.jpg");
+
+const segundoTitulo = accion[0].title;//Pongo el Titulo de la Pelicula
+crearP53.textContent = segundoTitulo;
+
+
+
+const crearDiv532 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-53
+llamarGen53.appendChild(crearDiv532);
+const crearDiv533 = document.createElement("div")
+llamarGen53.appendChild(crearDiv533);
+const crearDiv534 = document.createElement("div")
+llamarGen53.appendChild(crearDiv534);
+const crearDiv535 = document.createElement("div")
+llamarGen53.appendChild(crearDiv535);
+const crearDiv536 = document.createElement("div")
+llamarGen53.appendChild(crearDiv536);
+const crearDiv537 = document.createElement("div")
+llamarGen53.appendChild(crearDiv537);
+const crearDiv538 = document.createElement("div")
+llamarGen53.appendChild(crearDiv538);
+const crearDiv539 = document.createElement("div")
+llamarGen53.appendChild(crearDiv539);
+const crearDiv5310 = document.createElement("div")
+llamarGen53.appendChild(crearDiv5310);
+
+const crearImg532= document.createElement("img");// Acá me Creo Img Hijo de Div
+crearDiv532.appendChild(crearImg532);
+const crearImg533= document.createElement("img");
+crearDiv533.appendChild(crearImg533);
+const crearImg534= document.createElement("img");
+crearDiv534.appendChild(crearImg534);
+const crearImg535= document.createElement("img");
+crearDiv535.appendChild(crearImg535);
+const crearImg536= document.createElement("img");
+crearDiv536.appendChild(crearImg536);
+const crearImg537= document.createElement("img");
+crearDiv537.appendChild(crearImg537);
+const crearImg538= document.createElement("img");
+crearDiv538.appendChild(crearImg538);
+const crearImg539= document.createElement("img");
+crearDiv539.appendChild(crearImg539);
+const crearImg5310= document.createElement("img");
+crearDiv5310.appendChild(crearImg5310);
+
+
+const crearP532 = document.createElement("p");// Acá me Creo P Hermano de Img
+crearDiv532.appendChild(crearP532);
+const crearP533 = document.createElement("p");
+crearDiv533.appendChild(crearP533);
+const crearP534 = document.createElement("p");
+crearDiv534.appendChild(crearP534);
+const crearP535 = document.createElement("p");
+crearDiv535.appendChild(crearP535);
+const crearP536 = document.createElement("p");
+crearDiv536.appendChild(crearP536);
+const crearP537 = document.createElement("p");
+crearDiv537.appendChild(crearP537);
+const crearP538 = document.createElement("p");
+crearDiv538.appendChild(crearP538);
+const crearP539 = document.createElement("p");
+crearDiv539.appendChild(crearP539);
+const crearP5310 = document.createElement("p");
+crearDiv5310.appendChild(crearP5310);
+
+const segundaImgPelicula2 = accion[4].poster_path;//Pongo Imagen de la Pelicula
+crearImg532.setAttribute("src", "../img/retribution.jpg");
+const segundaImgPelicula3 = accion[4].poster_path;
+crearImg533.setAttribute("src", "../img/fastx.jpg");
+const segundaImgPelicula4 = accion[4].poster_path;
+crearImg534.setAttribute("src", "../img/The Equalizer 3.jpg");
+const segundaImgPelicula5 = accion[5].poster_path;
+crearImg535.setAttribute("src", "https://image.tmdb.org/t/p/w500/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg");
+const segundaImgPelicula6 = accion[4].poster_path;
+crearImg536.setAttribute("src", "../img/mission impossible dead.jpg");
+const segundaImgPelicula7 = accion[4].poster_path;
+crearImg537.setAttribute("src", "../img/desperation road.jpg");
+const segundaImgPelicula8 = accion[4].poster_path;
+crearImg538.setAttribute("src", "https://image.tmdb.org/t/p/w500/a9bt9byTQ1MIfRWYQX240HiYPrl.jpg");
+const segundaImgPelicula9 = accion[4].poster_path;
+crearImg539.setAttribute("src", "../img/babylon ad.jpg");
+const segundaImgPelicula10 = accion[4].poster_path;
+crearImg5310.setAttribute("src", "../img/the engineer.jpg");
+
+const segundoTitulo2 = accion[1].title;//Pongo el Titulo de la Pelicula
+crearP532.textContent = segundoTitulo2;
+const segundoTitulo3 = accion[2].title;
+crearP533.textContent = segundoTitulo3;
+const segundoTitulo4 = accion[3].title;
+crearP534.textContent = segundoTitulo4;
+const segundoTitulo5 = accion[5].title;
+crearP535.textContent = segundoTitulo5;
+const segundoTitulo6 = accion[6].title;
+crearP536.textContent = segundoTitulo6;
+const segundoTitulo7 = accion[9].title;
+crearP537.textContent = segundoTitulo7;
+const segundoTitulo8 = accion[14].title;
+crearP538.textContent = segundoTitulo8;
+const segundoTitulo9 = accion[18].title;
+crearP539.textContent = segundoTitulo9;
+const segundoTitulo10 = accion[19].title;
+crearP5310.textContent = segundoTitulo10;
+
+
+
+//Sección Aventura
 const llamarGen12 = document.getElementById("genero-12");//Llamo al id "Genero-12"
 console.log(llamarGen12);
 
@@ -243,12 +364,11 @@ crearDiv12.appendChild(crearImg12);
 const crearP12 = document.createElement("p");// Acá me Creo P Hermano de Img
 crearDiv12.appendChild(crearP12);
 
-const segundaImgPelicula = accion[4].poster_path;//Pongo Imagen de la Pelicula
+const terceraImgPelicula = accion[4].poster_path;//Pongo Imagen de la Pelicula
 crearImg12.setAttribute("src", "https://image.tmdb.org/t/p/w500/qXChf7MFL36BgoLkiB3BzXiwW82.jpg");
 
-const tercerTitulo = accion[4].title;//Pongo el Titulo de la Pelicula
+const tercerTitulo = accion[0].title;//Pongo el Titulo de la Pelicula
 crearP12.textContent = tercerTitulo;
-
 
 
 const crearDiv122 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-12
