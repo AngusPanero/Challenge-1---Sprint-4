@@ -16,6 +16,10 @@ console.log("Peliculas de Aventura", aventura);
 const llamarGen28 = document.getElementById("genero-28");
 console.log(llamarGen28);
 
-const crearFig28 = document.createElement("figure");
-llamarGen28.appendChild(crearFig28)
+const crearP28 = document.createElement("p");
+llamarGen28.appendChild(crearP28)
 console.log(llamarGen28);
+
+const primerPelicula = accion[0].title;
+llamarGen28.textContent = primerPelicula;
+
