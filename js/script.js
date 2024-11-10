@@ -350,7 +350,6 @@ const segundoTitulo10 = accion[19].title;
 crearP5310.textContent = segundoTitulo10;
 
 
-
 //Sección Aventura
 const llamarGen12 = document.getElementById("genero-12");//Llamo al id "Genero-12"
 console.log(llamarGen12);
@@ -424,4 +423,4 @@ crearP124.textContent = tercerTitulo4;
 const tercerTitulo5 = accion[17].title;
 crearP125.textContent = tercerTitulo5;
 const tercerTitulo6 = accion[18].title;
-crearP126.textContent = tercerTitulo6;
+crearP126.textContent = tercerTitulo6; 

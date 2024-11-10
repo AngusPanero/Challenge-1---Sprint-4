@@ -14,8 +14,34 @@ h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-
 img{
-  width: 100px;
-  height: 150px;
+  width: 200px;
+  height: 300px;
+}
+
+div#genero-28.genero{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+div#genero-53.genero{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+div#genero-12.genero{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
