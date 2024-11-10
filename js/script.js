@@ -19,12 +19,15 @@ console.log(llamarGen28);
 const crearDiv28 = document.createElement("div")//Acá me Creo Div Hijo del Div Genero-28
 llamarGen28.appendChild(crearDiv28);
 
-const crearFigure28= document.createElement("figure");// Acá me Creo Fig Hijo de Div
-crearDiv28.appendChild(crearFigure28);
+const crearImg28= document.createElement("img");// Acá me Creo Img Hijo de Div
+crearDiv28.appendChild(crearImg28);
 
-const crearP28 = document.createElement("p");// Acá me Creo P Hermano de Fig
+const primerImgPelicula = accion[0].poster_path;//Pongo Imagen de la Pelicula
+crearImg28.setAttribute("src", "https://image.tmdb.org/t/p/w500/qXChf7MFL36BgoLkiB3BzXiwW82.jpg");
+
+const crearP28 = document.createElement("p");// Acá me Creo P Hermano de Img
 crearDiv28.appendChild(crearP28);
 
-const primerPelicula = accion[0].title;//Pongo el Titulo de la Pelicula
-crearP28.textContent = primerPelicula;
+const primerTitulo = accion[0].title;//Pongo el Titulo de la Pelicula
+crearP28.textContent = primerTitulo;
 
