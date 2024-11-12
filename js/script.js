@@ -424,3 +424,6 @@ const tercerTitulo5 = accion[17].title;
 crearP125.textContent = tercerTitulo5;
 const tercerTitulo6 = accion[18].title;
 crearP126.textContent = tercerTitulo6; 
+
+
+//Probando Consola
