@@ -1,7 +1,72 @@
 import peliculas from './peliculas.js'
 
-console.log(peliculas);
+const llamarGen28 = document.getElementById("genero-28");//Llamo al id "Genero-28"
+const llamarGen53 = document.getElementById("genero-53");
+const llamarGen12 = document.getElementById("genero-12");
 
+const accion = []
+const thriller = []
+const aventura = []
+
+
+const accionFilter = peliculas.filter((element) => element.genre_ids.includes(28))
+const thrillerFilter = peliculas.filter((element) => element.genre_ids.includes(53))
+const aventuraFilter = peliculas.filter((element) => element.genre_ids.includes(12))
+
+
+accion.push(...accionFilter);
+console.log(accion)
+thriller.push(...thrillerFilter);
+console.log(thriller)
+aventura.push(...aventuraFilter);
+console.log(aventura);
+
+accion.forEach (pelicula => {
+    llamarGen28.innerHTML += 
+    `<div>
+        <img src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}">
+        <p>${pelicula.title}</p>
+    </div>`
+});
+
+thriller.forEach(pelicula => {
+    llamarGen53.innerHTML +=
+    `<div>
+        <img src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}">
+        <p>${pelicula.title}</p>
+    </div>`
+});
+
+aventura.forEach(pelicula => {
+    llamarGen12.innerHTML +=
+    `<div>
+        <img src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}">
+        <p>${pelicula.title}</p>
+    </div>`
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 //Filtrar Peliculas Acción id=28
 const accion = peliculas.filter((element) => element.genre_ids.includes(28));
 console.log("Peliculas de Acción", accion);
@@ -426,4 +491,4 @@ const tercerTitulo6 = accion[18].title;
 crearP126.textContent = tercerTitulo6; 
 
 
-//Probando Consola
+//Probando Consola */
